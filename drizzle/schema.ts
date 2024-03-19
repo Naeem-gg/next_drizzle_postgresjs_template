@@ -5,4 +5,5 @@ export const test = pgTable("test",{
     name:varchar("name").notNull(),
     password:varchar("password").notNull(),
     email:varchar("email").notNull()
+    
 })
